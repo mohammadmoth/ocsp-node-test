@@ -1,0 +1,21 @@
+{
+  "name": "ocsp-node-test",
+  "version": "0.0.1",
+  "description": "try how implement OCSP Stapling in nodejs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ocsp",
+    "nodejs",
+    "stapling"
+  ],
+  "author": "mhd@othman.info",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.0.2",
+    "ocsp": "^1.2.0"
+  }
+}
